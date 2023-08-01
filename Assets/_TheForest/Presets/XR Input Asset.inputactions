@@ -1,0 +1,34 @@
+{
+    "name": "XR Input Asset",
+    "maps": [
+        {
+            "name": "Controller",
+            "id": "6d425e7c-4422-439e-97bf-bffc50a5b46a",
+            "actions": [
+                {
+                    "name": "Button",
+                    "type": "Button",
+                    "id": "80d38495-8c2a-499d-9d45-83f0780d0379",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "08ec68b7-1b9c-4c71-a818-630a38efcdab",
+                    "path": "*/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
